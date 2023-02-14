@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#grid{
+				border: 5px solid pink;
+				display: grid;
+				grid-template-columns: 150px 1fr;
+				/* Navigation은 150px로 고정, Article은 화면 크기에 맞게 조절됨*/
+				/*화면 전체를 사용하게 하는 단위 = fr*/
+			}
+			div{
+				border: 5px solid gray;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="grid">
+			<div>NAVIGATION</div> 
+			<div>Computer programming is the process of performing 
+				a particular computation (or more generally, 
+				accomplishing a specific computing result), 
+				usually by designing and building an executable 
+				computer program. Programming involves tasks such as 
+				analysis, generating algorithms, profiling algorithms' 
+				accuracy and resource consumption, and the implementation 
+				of algorithms (usually in a chosen programming language, 
+				commonly referred to as coding) 
+			</div>
+		</div>
+		<!--<span></span> = inline tag이며 <div>와 같은 역할-->
+	</body>
+</html>
